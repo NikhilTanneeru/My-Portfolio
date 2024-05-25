@@ -12,9 +12,7 @@ function App() {
     <Router>
         <Navbar/>
         <div className="container my-5">
-            <Routes>
-                <Route path="/"element={<Home />} />
-            </Routes>
+            <Home/>
         </div> 
         <Contact/>
     </Router>
