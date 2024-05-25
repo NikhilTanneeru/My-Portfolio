@@ -1,0 +1,25 @@
+.lastbox{
+    margin-top: 35vh;
+    height: 55vh;
+    overflow: hidden;
+    color: #663300; /* Saddle brown */
+    background-color: #f7d0a8; /* Peach-orange */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.contele{
+    width: 45%;
+    padding: 5vw;
+}
+input{
+    margin-top: 4px;
+    align-items: center;
+    width: 85%;
+    padding: 3px;
+    border-radius: 3px;
+}
+textarea{
+    width: 85%;
+}

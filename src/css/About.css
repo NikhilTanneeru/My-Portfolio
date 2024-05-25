@@ -1,0 +1,53 @@
+/* About.css */
+.about {
+    width: 100%;
+    height: auto;
+    background-color: #fcfefe; 
+    margin-bottom: 30vh;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    color: black;
+}
+
+.about.dark-mode {
+    background-color: #444; /* Dark background color */
+    color: white; /* Text color for dark mode */
+}
+
+.heading {
+    color: green;
+}
+
+.heading:hover {
+    text-decoration: underline;
+    transition: 1s ease-in;
+}
+
+.cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80%;
+}
+
+.abttxt {
+    padding: 7px;
+    width: 45%;
+}
+
+.imgcard {
+    padding: 7px;
+    width: 45%;
+}
+
+#sideimg1 {
+    width: 50%; 
+    height: 100%; 
+    display: block;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

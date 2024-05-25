@@ -1,0 +1,65 @@
+ .start {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:75vh;
+    align-items: center;
+    margin-bottom: 15vh;
+  }
+
+  .sitem2{
+    margin-left: 4vw;
+    height: 60%;
+    width:90%;
+    border-radius: 30px 133px 29px 132px;
+    -webkit-border-radius: 30px 133px 29px 132px;
+    -moz-border-radius: 30px 133px 29px 132px;
+    background: #8a2be2;
+    border: 7px solid #ff6550;
+    max-width: 400px; 
+    height: auto; 
+    overflow: hidden; 
+    padding: 5px;
+  }
+  
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+
+  .body{
+    width:100%;
+  }
+  #sideimg {
+    width: 90%; 
+    height: auto; 
+    display: block; 
+  }
+
+  .conticons1{
+    color: black;
+    margin-top: 2vh;
+    display: flex;
+    font-size: 180%;
+    flex-direction: row;
+    gap: 2vw;
+  }
+  /* Override Bootstrap link color */
+a {
+  color: inherit;
+}
+
+/* Light mode icons color */
+.conticons {
+  color: black;
+}
+
+/* Dark mode icons color */
+.dark-mode.conticons {
+  color: white;
+  background-color: #333333;
+} 
+
+.dark-mode .heading {
+  color: #90EE90; /* Light Gray */
+}

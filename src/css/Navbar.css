@@ -1,0 +1,33 @@
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(236, 230, 230); /* Default background color */
+}
+
+/* Apply dark mode styles */
+.dark-mode {
+    background-color: black;
+}
+
+/* Rest of your CSS */
+li a , #toggleswitch {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+li a:not(.active):hover {
+    color: blue;
+    text-decoration: underline;
+    transition: 0.5s; 
+}
+
+
+.active {
+    background-color: #04AA6D;
+}
