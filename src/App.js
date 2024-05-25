@@ -11,9 +11,7 @@ function App() {
   return (
     <Router>
         <Navbar/>
-        <div className="container my-5">
-            <Home/>
-        </div> 
+        <Home/>
         <Contact/>
     </Router>
         
