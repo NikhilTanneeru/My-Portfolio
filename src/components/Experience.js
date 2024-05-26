@@ -3,7 +3,7 @@ import '../css/About.css'
 
 export default function Experience(props) {
     return (
-        <div>
+        <div className='container'> 
             <div className="about my-3 py-3">
                 <center><p>Explore </p></center>
                 <center><h3 className='heading'>My Skills</h3></center>
