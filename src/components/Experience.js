@@ -31,6 +31,8 @@ export default function Experience(props) {
                         <ul>
                             <li>SQL</li>
                             <li>MY SQL</li>
+                            <li>MongoDB</li>
+
                         </ul>
                     </div>
                     <div className="skill-set my-3">
