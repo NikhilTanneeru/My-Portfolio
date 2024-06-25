@@ -3,7 +3,11 @@ import '../css/About.css'
 
 export default function Experience(props) {
     return (
+<<<<<<< HEAD
         <div className='container'>
+=======
+        <div className='container'> 
+>>>>>>> 4e2e657801a0107e2a3cbb57be5e355754a0d410
             <div className="about my-3 py-3">
                 <center><p>Explore </p></center>
                 <center><h3 className='heading'>My Skills</h3></center>
@@ -31,6 +35,8 @@ export default function Experience(props) {
                         <ul>
                             <li>SQL</li>
                             <li>MY SQL</li>
+                            <li>MongoDB</li>
+
                         </ul>
                     </div>
                     <div className="skill-set my-3">

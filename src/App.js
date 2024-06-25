@@ -31,17 +31,29 @@
 
 import React from 'react';
 import Navbar from './components/Navbar';
+<<<<<<< HEAD
 import Home from './components/Home';
 import Contact from './components/Contact';
+=======
+>>>>>>> 4e2e657801a0107e2a3cbb57be5e355754a0d410
 
 function App() {
   return (
     <>
+<<<<<<< HEAD
       <Navbar />
       <Home />
       <Contact />
     </>
   );
+=======
+        <Navbar/>
+        <Home/>
+        <Contact/>
+    <>
+        
+    );
+>>>>>>> 4e2e657801a0107e2a3cbb57be5e355754a0d410
 }
 
 export default App;
