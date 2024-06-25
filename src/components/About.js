@@ -4,10 +4,10 @@ import '../css/About.css';
 export default function About() {
   return (
     <div>
-      <div className="about my-3 py-3">
+      <div className="container about my-3 py-3">
         <center><h3 className='heading'>About Me</h3></center>
-        <div className="container cont">
-          <div className="container imgcard">
+        <div className="cont">
+          <div className="imgcard">
             <center><img id="sideimg1" src={require('../files/Webdeveloper.png')} alt='Profile' /></center>
           </div>
           <div className="container abttxt">
