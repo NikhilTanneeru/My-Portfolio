@@ -13,7 +13,7 @@ export default function ProjectCard(props) {
             <center><h5 className="cert-title py-3 " style={{marginTop:'3px'}}>{props.title}</h5></center>
             <p className='px-3' style={{paddingTop:'3px'}}><strong>Technologies Used: </strong>{props.desc}</p>
             <p className='px-3' style={{paddingTop:'3px'}}><strong>Role: </strong>{props.role}</p>
-            <center><button className='btn btn-primary' onClick={openGithubLink}>Open Credential</button></center>
+            <center><button className='btn btn-primary' onClick={openGithubLink}>Open Github</button></center>
         </div>
     </div>
   )
