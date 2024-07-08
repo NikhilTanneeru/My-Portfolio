@@ -65,7 +65,7 @@ export default function Contact() {
   
 
   return (
-    <div className='lastbox'>
+    <div className='lastbox' id='contact'>
       <div className="contele">
         <h4 style={{paddingTop:'4vh'}}>Let's Connect</h4>
         <p style={{paddingLeft:'20px'}}>

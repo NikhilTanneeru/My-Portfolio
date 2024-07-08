@@ -70,7 +70,9 @@ export default function Home() {
             </h2>
             <p className="my-4 mx-3" style={{textWrap:'wrap'}}>A sophomore pursuing BTECH from VIT-AP University</p>
             <br />
-            <button className='btn btn-primary my-3'>Hire Me</button>
+            <a href="#contact">
+              <button className='btn btn-primary my-3'>Hire Me</button>
+            </a>
             <button className='btn btn-primary mx-3 my-3' onClick={() => window.open("My Resume.pdf", "_blank")}>Download CV</button>
             <br />
             <div className='conticons1'>

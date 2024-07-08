@@ -8,6 +8,14 @@ export default function Projects(props) {
       <center><h3 className="heading py-3">Projects</h3></center>
       <div className="container cont">
         <ProjectCard 
+            title={'Online Apraisal'} 
+            imgName='Appraisal.png' 
+            desc='JavaScript, ReactJS, NodeJS, Tailwind CSS, MongoDB, Axios' 
+            role='Project Lead (Under Faculty Guidance)'
+            githubLink="https://github.com/NikhilTanneeru/OnlineAppraisal"
+
+        />
+        <ProjectCard 
             title={'PayRoll Management System'} 
             imgName='PayRoll.png' 
             desc='Java, JavaFx, Apache Poi, Spreadsheet as Database, Scene Builder' 
@@ -22,20 +30,21 @@ export default function Projects(props) {
               githubLink="https://github.com/NikhilTanneeru/Expression-Converter"
         />
         <ProjectCard 
-                title={'Random Password Generator'} 
-                imgName='PayRoll.png' 
-                desc='Python, Libraries such as Random' 
-                role='Team Lead'
-                githubLink="https://github.com/NikhilTanneeru/Random-Password-Generator"
+              title={'Random Password Generator'} 
+              imgName='Password.png' 
+              desc='Python, Libraries such as Random' 
+              role='Logic and GUI Development'
+              githubLink="https://github.com/NikhilTanneeru/Random-Password-Generator"
         />
         <ProjectCard 
-                title={'Online Apraisal'} 
-                imgName='PayRoll.png' 
-                desc='JavaScript, React, Node, CSS, Bootstrap, MongoDB' 
-                role='Team Lead'
-                
-          />
+              title={'Temperature Converter'} 
+              imgName='TempConv.png' 
+              desc='HTML, CSS, JavaScript' 
+              role='Individual Contributor'
+              githubLink="https://github.com/NikhilTanneeru/Temperature-Converter"
+        />
       </div>
     </div>
   );
 }
+
