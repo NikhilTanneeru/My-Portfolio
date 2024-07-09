@@ -1,17 +1,15 @@
-.ul {
+/* .ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(236, 230, 230); /* Default background color */
+    background-color: rgb(236, 230, 230); 
 }
 
-/* Apply dark mode styles */
 .dark-mode {
     background-color: black;
 }
 
-/* Rest of your CSS */
 li a , #toggleswitch {
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: block;
@@ -30,4 +28,51 @@ li a:not(.active):hover {
 
 .active {
     background-color: #04AA6D;
+} */
+
+/* Navbar.css */
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(236, 230, 230); /* Default background color */
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure it's above other elements */
 }
+
+/* Apply dark mode styles */
+.dark-mode {
+    background-color: black;
+}
+
+li a, #toggleswitch {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+li a:not(.active):hover {
+    color: blue;
+    text-decoration: underline;
+    transition: 0.5s; 
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+/* Dark mode specific styles */
+.ul.dark-mode li a, .ul.dark-mode #toggleswitch {
+    color: white;
+}
+
+.ul.dark-mode li a:not(.active):hover {
+    color: lightblue;
+}
+

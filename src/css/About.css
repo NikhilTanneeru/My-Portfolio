@@ -50,3 +50,19 @@
     flex-direction: row;
     justify-content: space-evenly;
 }
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .cont {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .abttxt, .imgcard {
+        width: 90%; /* Adjust width as needed */
+        text-align: center;
+    }
+    
+    #sideimg1 {
+        width: 50%; /* Adjust width for smaller screens if needed */
+    }
+}
