@@ -59,4 +59,8 @@
         width: 90%; /* Full width for smaller screens */
         margin: 1vw 0; /* Adjust margin for vertical spacing */
     }
+    .cert-view{
+        width: 90%;
+        justify-content: center;
+    }
 }

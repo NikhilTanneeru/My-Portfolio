@@ -7,12 +7,12 @@ export default function Certifications() {
     <div className="container certbox-m">
         <center><h3 className="heading" style={{paddingTop:'3px'}}>Certifications</h3></center><br />
         <div class='container cont'>
-            <Certificate className='certificate' title='JavaScript Essentials 1' imgName='JSE.png' desc='By Cisco Network Academy' altdesc='This Course has helped me to learn JavaScript from Scratch to Intermediate Level. Some of the topics include:\n
+            <Certificate className='certificate' title='JavaScript Essentials 1' imgName='JSE.png' desc='By Cisco Network Academy' altdesc={`This Course has helped me to learn JavaScript from Scratch to Intermediate Level. Some of the topics include:\n
                 **Operators and User Interaction:** Understanding how to use various operators and handle user input.\n
                 **Control Flow:** Mastering conditional execution and loops to control the flow of programs.\n
                 **Functions:** Learning to define and use functions to organize and reuse code.\n
-                **Errors, Exceptions, Debugging, and Troubleshooting: ** Identifying and managing errors, using exceptions, and debugging techniques.
-            '/>
+                **Errors, Exceptions, Debugging, and Troubleshooting: ** Identifying and managing errors, using exceptions, and debugging techniques.`}
+            />
             <Certificate className='certificate' title='Programming Essentials in Python 1 & 2' imgName='PCAP.png' desc='By Cisco Network Academy' altdesc='This Course has helped me to learn Python from Scratch. Starting with basics, Data types, Functions it also thought the Object Oriented Programming in Python which guided me to Intermediate Stage Python Learner'/>
             <Certificate className='certificate' title='Java Coding Challenge' imgName='JavaChallenge.png' desc='By CSI Club' altdesc='Successfully completed **100 Days Of Java Challenge** by CSI Club of VIT-AP University which helped me to recall all Java Basics, Pillars of OOPS and Multi Threading'/>
             <Certificate className='certificate' title='Project Merit Certificate' imgName='ECS.png' desc='By VIT- University' altdesc='Our Project (Smart Visual Assistant) was ranked in the **Top 15 projects** of the  university for the **FALL 2023-24 semester**. The device increased navigation accuracy and user independence' />
