@@ -15,6 +15,7 @@ export default function Certifications() {
             '/>
             <Certificate className='certificate' title='Programming Essentials in Python 1 & 2' imgName='PCAP.png' desc='By Cisco Network Academy' altdesc='This Course has helped me to learn Python from Scratch. Starting with basics, Data types, Functions it also thought the Object Oriented Programming in Python which guided me to Intermediate Stage Python Learner'/>
             <Certificate className='certificate' title='Java Coding Challenge' imgName='JavaChallenge.png' desc='By CSI Club' altdesc='Successfully completed **100 Days Of Java Challenge** by CSI Club of VIT-AP University which helped me to recall all Java Basics, Pillars of OOPS and Multi Threading'/>
+            <Certificate className='certificate' title='Project Merit Certificate' imgName='ECS.png' desc='By VIT- University' altdesc='Our Project (Smart Visual Assistant) was ranked in the **Top 15 projects** of the  university for the **FALL 2023-24 semester**. The device increased navigation accuracy and user independence' />
 
             <Certificate 
                 className='certificate' 
@@ -43,7 +44,6 @@ export default function Certifications() {
             <Certificate className='certificate' title='Code Battle' imgName='Code Battle.jpg' desc='By NGC Cloud Club' altdesc='Participated in a Coding Challenge Conducted by NextGen Cloud CLub in VIT-AP University and secured **11 th out of 250 teams**'/>
             <Certificate className='certificate' title='Python Workshop' imgName='VIT_Python.png' desc='By VIT-AP' altdesc='Participated in 2 day workshop conducted by VIT-AP University on Python which thought me the basics of Numpy and Pandas Libraries'/>
             <Certificate className='certificate' title='Front End Web Development' imgName='Great_Learning.jpg' desc='By Great Learning' altdesc='This course by Great Learning had thought me the fundamentals of Web Development particularly concentrated on HTML & CSS'/>
-            <Certificate className='certificate' title='Project Merit Certificate' imgName='ECS.png' desc='By VIT- University' altdesc='Our Project (Smart Visual Assistant) was ranked in the **Top 15 projects** of the  university for the **FALL 2023-24 semester**. The device increased navigation accuracy and user independence' />
         </div>
     </div>
   )
