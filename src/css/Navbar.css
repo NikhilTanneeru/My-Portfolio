@@ -57,6 +57,11 @@ li a, #toggleswitch {
     text-decoration: none;
 }
 
+label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
 li a:not(.active):hover {
     color: blue;
     text-decoration: underline;

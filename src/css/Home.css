@@ -63,3 +63,19 @@ a {
 .dark-mode .heading {
   color: #90EE90; /* Light Gray */
 }
+
+@media (max-width: 768px) {
+  .container.start {
+      flex-direction: column-reverse; /* Reverse the column order */
+  }
+  .sitem2{
+    width:80%;
+    margin-bottom: 2vh;
+  }
+  #sideimg{
+    width: 90%;
+  }
+  .sitem1{
+    margin-top: 2vh !important; /* Ensure margin-top is applied */
+  }
+}
