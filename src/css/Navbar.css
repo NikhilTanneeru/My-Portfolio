@@ -81,3 +81,8 @@ li a:not(.active):hover {
     color: lightblue;
 }
 
+@media (max-width: 768px) {
+    nav{
+        margin-bottom: 4vh;
+    }
+}

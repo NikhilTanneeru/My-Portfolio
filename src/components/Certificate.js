@@ -3,6 +3,10 @@ import Swal from 'sweetalert2';
 import '../css/Certificate.css';
 
 export default function Certificate(props) {
+  const getAlertWidth = () => {
+    return window.innerWidth <= 768 ? '90vw' : '45vw';
+  };
+
   const handleButtonClick = () => {
     Swal.fire({
       title: props.title,
@@ -11,9 +15,8 @@ export default function Certificate(props) {
       imageWidth: 400,
       imageHeight: 200,
       imageAlt: 'Custom image',
-      width:'45vw',
+      width: getAlertWidth(),
       html: `<p>${props.altdesc.replace(/\n/g, '<br/>').replace(/(\*\*[^*]+\*\*)/g, '<b>$1</b>').replace(/\*\*/g, '')}</p>`,
-
     });
   };
 
