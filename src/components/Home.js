@@ -23,11 +23,19 @@ export default function Home() {
             <a href="#contact">
               <button className='btn btn-primary my-3'>Hire Me</button>
             </a>
-            <button className='btn btn-primary mx-3 my-3' onClick={() => window.open("My Resume.pdf", "_blank")}>Download CV</button>
+            {/* Button to Download */}
+            <a href="https://drive.google.com/file/d/1A4NGCvrM0rNSVRReCSLVovT9ZSiZuOs7/view?usp=sharing" target='_blank' rel="noopener noreferrer">
+              <button className='btn btn-primary mx-3 my-3'>Open CV</button>
+            </a>
+
+            {/* Button to Open Resume */}
+            {/* <button className='btn btn-primary mx-3 my-3' onClick={() => window.open("My Resume.pdf", "_blank")}>Download CV</button> */}
+            
             <br />
+
             <div className='conticons1'>
               <a className="conticons" href="https://linkedin.com/in/nikhil-tanneeru" target='_blank' rel="noreferrer"><FaLinkedin/></a>
-              <a className="conticons" href="https://github.com/NikhilTanneeru" target="_blank" rel="noreferrer"><FaGithub/></a>
+              <a className="conticons" href="https://github.com/YogaVenkataNikhil" target="_blank" rel="noreferrer"><FaGithub/></a>
             </div>
           </div>
           <div className="container sitem2">

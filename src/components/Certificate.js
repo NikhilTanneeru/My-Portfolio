@@ -16,7 +16,10 @@ export default function Certificate(props) {
       imageHeight: 200,
       imageAlt: 'Custom image',
       width: getAlertWidth(),
-      html: `<p>${props.altdesc.replace(/\n/g, '<br/>').replace(/(\*\*[^*]+\*\*)/g, '<b>$1</b>').replace(/\*\*/g, '')}</p>`,
+      html: `
+        <p>${props.altdesc.replace(/\n/g, '<br/>').replace(/(\*\*[^*]+\*\*)/g, '<b>$1</b>').replace(/\*\*/g, '')}</p>
+        ${props.link ? `<a href="${props.link}" target="_blank" style="display: block; margin-top: 10px; color: #007bff; text-decoration: none;">View Certificate on Web</a>` : ''}
+      `,
     });
   };
 

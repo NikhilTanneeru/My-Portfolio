@@ -69,7 +69,7 @@ export default function Navbar() {
   return (
     <nav className={`navbar navbar-expand-lg navbar-${mode} bg-${mode}`}>
       <div className="container-fluid">
-        <h4 style={{marginLeft:'5vw', paddingTop: '8px'}} className="navbar-brand" href="/">🕸 Nikhil</h4>
+        <h4 style={{marginLeft:'3vw', paddingTop: '8px'}} className="navbar-brand" href="/">🕸 Nikhil</h4>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
