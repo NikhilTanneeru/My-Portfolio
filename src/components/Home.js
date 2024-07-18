@@ -35,7 +35,7 @@ export default function Home() {
 
             <div className='conticons1'>
               <a className="conticons" href="https://linkedin.com/in/nikhil-tanneeru" target='_blank' rel="noreferrer"><FaLinkedin/></a>
-              <a className="conticons" href="https://github.com/YogaVenkataNikhil" target="_blank" rel="noreferrer"><FaGithub/></a>
+              <a className="conticons" href="https://github.com/NikhilTanneeru" target="_blank" rel="noreferrer"><FaGithub/></a>
             </div>
           </div>
           <div className="container sitem2">

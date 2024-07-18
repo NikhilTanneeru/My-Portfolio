@@ -27,6 +27,8 @@
 
 import React, { useState } from 'react';
 import '../css/Contact.css';
+import { FaEnvelope } from 'react-icons/fa';
+
 
 export default function Contact() {
   const [email, setEmail] = useState('');
@@ -71,7 +73,14 @@ export default function Contact() {
         <p style={{paddingLeft:'20px'}}>
           I am currently looking for new opportunities, my inbox will always be open.
           Whether you have any questions, or just want to say hi, I'll always do my best to get back to you.
-        </p>
+        </p><br />
+        <p><b>Note: </b>The submit button on the form does not work when viewing my portfolio on GitHub Pages, as it does not support server-side processing. Please use your email client to contact me by clicking the button below.</p>
+        <button className="btn btn-primary my-3">
+          <FaEnvelope />
+          <a href="mailto:nikhiltanneeru4@gmail.com" className="text-decoration-none mx-3">
+            Mail Here
+          </a>
+        </button>
       </div>
       <div className="contele">
         <form onSubmit={handleSubmit}>
@@ -103,6 +112,7 @@ export default function Contact() {
           <button type='submit' className="btn btn-primary my-3">Submit</button>
         </form>
       </div>
+      
     </div>
   );
 }

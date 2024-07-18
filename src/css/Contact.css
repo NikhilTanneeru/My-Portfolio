@@ -23,3 +23,13 @@ input{
 textarea{
     width: 85%;
 }
+
+@media (max-width: 768px) {
+    .lastbox{
+        height: auto;
+        flex-direction: column;
+    }
+    .contele{
+        width: 90vw;
+    }
+  }

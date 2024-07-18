@@ -18,8 +18,11 @@ export default function Certificate(props) {
       width: getAlertWidth(),
       html: `
         <p>${props.altdesc.replace(/\n/g, '<br/>').replace(/(\*\*[^*]+\*\*)/g, '<b>$1</b>').replace(/\*\*/g, '')}</p>
-        ${props.link ? `<a href="${props.link}" target="_blank" style="display: block; margin-top: 10px; color: #007bff; text-decoration: none;">View Certificate on Web</a>` : ''}
-      `,
+        ${props.link ? 
+          `<a href="${props.link}" target="_blank" style="display: block; margin-top: 10px; color: #007bff; text-decoration: none;">
+             Open Certificate Credential <i class="fa fa-external-link" aria-hidden="true" style="margin-left: 5px;"></i>
+           </a>` 
+          : ''}`
     });
   };
 
@@ -39,7 +42,7 @@ export default function Certificate(props) {
             style={{ alignItems: 'flex-end' }} 
             onClick={handleButtonClick}
           >
-            Open Credential
+            View Details
           </button>
         </center>
       </div>

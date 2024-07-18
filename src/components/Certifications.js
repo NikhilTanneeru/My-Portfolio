@@ -26,7 +26,7 @@ export default function Certifications() {
                 I gained an understanding of the protocols that web browsers use to retrieve documents and web applications, which provided me with a solid foundation for web development and networking. 
                 I also learned how to retrieve data from websites and APIs using Python, enabling me to interact with web services and collect real-time data. Additionally, 
                 I developed the skills to work with XML (eXtensible Markup Language) data, which is essential for handling structured data in various applications. 
-                These skills have equipped me with the tools to effectively gather, process, and utilize data from a wide range of sources, enhancing my capabilities in data analysis and web development.\n' 
+                These skills have equipped me with the tools to effectively gather, process, and utilize data from a wide range of sources, enhancing my capabilities in data analysis and web development.' 
                 link='https://coursera.org/share/7bd46aaafdeec7afbabab8c78c69fb3f'
             />
 
