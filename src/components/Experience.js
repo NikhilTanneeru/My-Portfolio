@@ -23,14 +23,14 @@ export default function Experience(props) {
                             <li>HTML</li>
                             <li>CSS</li>
                             <li>JS</li>
-                            <li>React</li>
+                            <li>ReactJS</li>
+                            <li>NodeJS</li>
                         </ul>
                     </div>
                     <div className="skill-set my-3">
                         <center><strong>Databases</strong></center>
                         <ul>
                             <li>SQL</li>
-                            <li>MY SQL</li>
                             <li>MongoDB</li>
 
                         </ul>

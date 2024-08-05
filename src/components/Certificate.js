@@ -16,6 +16,9 @@ export default function Certificate(props) {
       imageHeight: 200,
       imageAlt: 'Custom image',
       width: getAlertWidth(),
+      customClass: {
+        popup: 'custom-swal-background'
+    },
       html: `
         <p>${props.altdesc.replace(/\n/g, '<br/>').replace(/(\*\*[^*]+\*\*)/g, '<b>$1</b>').replace(/\*\*/g, '')}</p>
         ${props.link ? 
@@ -23,6 +26,7 @@ export default function Certificate(props) {
              Open Certificate Credential <i class="fa fa-external-link" aria-hidden="true" style="margin-left: 5px;"></i>
            </a>` 
           : ''}`
+      
     });
   };
 

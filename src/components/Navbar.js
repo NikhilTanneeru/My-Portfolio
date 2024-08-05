@@ -53,14 +53,14 @@ export default function Navbar() {
       setMode('dark');
       document.body.style.backgroundColor = '#333333';
       document.body.style.color = 'white';
-      document.querySelectorAll('.prbox, .certbox-m, .cert-view, .about, .conticons').forEach(element => {
+      document.querySelectorAll('.prbox, .certbox-m, .cert-view, .about, .conticons, .custom-swal-background').forEach(element => {
         element.classList.add('dark-mode');
       });
     } else {
       setMode('light');
       document.body.style.backgroundColor = 'white';
       document.body.style.color = 'black';
-      document.querySelectorAll('.prbox, .certbox-m, .cert-view, .about, .conticons').forEach(element => {
+      document.querySelectorAll('.prbox, .certbox-m, .cert-view, .about, .conticons, .custom-swal-background').forEach(element => {
         element.classList.remove('dark-mode');
       });
     }

@@ -18,7 +18,7 @@ export default function Home() {
               Hi, I am Nikhil Tanneeru<br/>
               <span style={{color:'green'}}>A <Typewriter text={['Web Developer!','Java Developer!','Python Developer!']} delay={200} infinite /></span>
             </h2>
-            <p className="my-4 mx-3" style={{textWrap:'wrap'}}>A sophomore pursuing BTECH from VIT-AP University</p>
+            <p className="my-4 mx-3" style={{textWrap:'wrap'}}>A pre-final year student pursuing BTECH from VIT-AP University who is looking for Internships to gain Real World Experience </p>
             <br />
             <a href="#contact">
               <button className='btn btn-primary my-3'>Hire Me</button>
@@ -34,8 +34,8 @@ export default function Home() {
             <br />
 
             <div className='conticons1'>
-              <a className="conticons" href="https://linkedin.com/in/nikhil-tanneeru" target='_blank' rel="noreferrer"><FaLinkedin/></a>
-              <a className="conticons" href="https://github.com/NikhilTanneeru" target="_blank" rel="noreferrer"><FaGithub/></a>
+              <a className="conticons mx-1" href="https://linkedin.com/in/nikhil-tanneeru" target='_blank' rel="noreferrer"><FaLinkedin/></a>
+              <a className="conticons mx-1" href="https://github.com/NikhilTanneeru" target="_blank" rel="noreferrer"><FaGithub/></a>
             </div>
           </div>
           <div className="container sitem2">

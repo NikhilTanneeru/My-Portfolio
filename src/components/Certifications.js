@@ -7,6 +7,8 @@ export default function Certifications() {
     <div className="container certbox-m">
         <center><h3 className="heading" style={{paddingTop:'3px'}}>Certifications</h3></center><br />
         <div class='container cont'>
+            <Certificate className='certificate' title='Microsoft Azure Fundamentals (DP-900)' imgName='dp-900.png' desc='By Microsoft' altdesc='I learned the core data concepts and how they are implemented using Microsoft Azure data services. This includes an understanding of relational and non-relational data, data processing, and query languages like SQL.'/>
+
             <Certificate className='certificate' title='JavaScript Essentials 1' imgName='JSE.png' desc='By Cisco Network Academy' altdesc={`This Course has helped me to learn JavaScript from Scratch to Intermediate Level. Some of the topics include:\n
                 **Operators and User Interaction:** Understanding how to use various operators and handle user input.\n
                 **Control Flow:** Mastering conditional execution and loops to control the flow of programs.\n
