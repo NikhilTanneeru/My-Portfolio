@@ -3,6 +3,10 @@ import Swal from 'sweetalert2';
 import '../css/Certificate.css';
 
 export default function Certificate(props) {
+  const getAlertWidth = () => {
+    return window.innerWidth <= 768 ? '90vw' : '45vw';
+  };
+
   const handleButtonClick = () => {
     Swal.fire({
       title: props.title,
@@ -11,9 +15,18 @@ export default function Certificate(props) {
       imageWidth: 400,
       imageHeight: 200,
       imageAlt: 'Custom image',
-      width:'45vw',
-      html: `<p>${props.altdesc.replace(/\n/g, '<br/>').replace(/(\*\*[^*]+\*\*)/g, '<b>$1</b>').replace(/\*\*/g, '')}</p>`,
-
+      width: getAlertWidth(),
+      customClass: {
+        popup: 'custom-swal-background'
+    },
+      html: `
+        <p>${props.altdesc.replace(/\n/g, '<br/>').replace(/(\*\*[^*]+\*\*)/g, '<b>$1</b>').replace(/\*\*/g, '')}</p>
+        ${props.link ? 
+          `<a href="${props.link}" target="_blank" style="display: block; margin-top: 10px; color: #007bff; text-decoration: none;">
+             Open Certificate Credential <i class="fa fa-external-link" aria-hidden="true" style="margin-left: 5px;"></i>
+           </a>` 
+          : ''}`
+      
     });
   };
 
@@ -33,7 +46,7 @@ export default function Certificate(props) {
             style={{ alignItems: 'flex-end' }} 
             onClick={handleButtonClick}
           >
-            Open Credential
+            View Details
           </button>
         </center>
       </div>

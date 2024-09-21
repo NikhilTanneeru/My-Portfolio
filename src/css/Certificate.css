@@ -26,3 +26,14 @@
     color: white; /* Text color for dark mode */
     border: 0.1px solid white;
 }
+
+/* .custom-swal-background {
+    background-color: #f4f1f1;
+    color: black;
+} */
+
+.custom-swal-background.dark-mode {
+    background-color: #444; /* Dark mode background color */
+    color: white;
+    border: 0.1px solid white;
+}

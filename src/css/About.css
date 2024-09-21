@@ -65,4 +65,7 @@
     #sideimg1 {
         width: 50%; /* Adjust width for smaller screens if needed */
     }
+    .skills{
+        flex-direction: column;
+    }
 }
