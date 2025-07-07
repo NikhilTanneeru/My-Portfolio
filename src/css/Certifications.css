@@ -67,3 +67,26 @@
         margin-bottom: 3vh;
     }
 }
+.view-more-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.view-more-btn {
+    margin-bottom: 2vh;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.view-more-btn:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}

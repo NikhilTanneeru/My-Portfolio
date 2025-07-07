@@ -18,7 +18,8 @@ export default function Home() {
               Hi, I am Nikhil Tanneeru<br/>
               <span style={{color:'green'}}>A <Typewriter text={['Web Developer!','Java Developer!','Python Developer!']} delay={200} infinite /></span>
             </h2>
-            <p className="my-4 mx-3" style={{textWrap:'wrap'}}>A pre-final year student pursuing BTECH from VIT-AP University who is looking for Internships to gain Real World Experience </p>
+            
+            <p className="my-4 mx-3" style={{textWrap:'wrap'}}>A final year student pursuing BTECH from VIT-AP University who is looking for Internships to gain Real World Experience </p>
             <br />
             <a href="#contact">
               <button className='btn btn-primary my-3'>Hire Me</button>
