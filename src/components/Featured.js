@@ -7,7 +7,7 @@ const cards = [
     title: 'Offer Letter',
     desc: 'Received my offer letter from Ewarn System',
     altdesc: '**Full Description** with more info about the project or certificate. Supports *formatting* and links.\nSecond line here.',
-    img: "offer.png",
+    img: "Offer.png",
     link: 'https://drive.google.com/file/d/18T7YVE_ftfHKD6ZSAv18YcTjQIR-aRdU/view?usp=sharing'
   },
   {

@@ -90,7 +90,7 @@ export default function Projects(props) {
   const projects = [
     {
       title: 'Humanized Interview Agent',
-      imgName: 'Interview.png',
+      imgName: 'interview.png',
       desc: 'Python, OPENAI, EfficientnetB0',
       role: 'Team lead and Developer',
       altdesc: `
