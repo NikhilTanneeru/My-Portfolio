@@ -6,23 +6,9 @@ const cards = [
   {
     title: 'Offer Letter',
     desc: 'Received my offer letter from Ewarn System',
-    altdesc: '**Full Description** with more info about the project or certificate. Supports *formatting* and links.\nSecond line here.',
+    altdesc: 'I am very exited to share my sucessful completion of my internship at Ewarn System',
     img: "Offer.png",
     link: 'https://drive.google.com/file/d/18T7YVE_ftfHKD6ZSAv18YcTjQIR-aRdU/view?usp=sharing'
-  },
-  {
-    title: 'Featured 2',
-    desc: 'Short description 2',
-    altdesc: 'Another **long description** about project 2 or something else.\nWith line breaks and a credential link.',
-    img: 'https://via.placeholder.com/300',
-    link: 'https://example.com/certificate2'
-  },
-  {
-    title: 'Featured 3',
-    desc: 'Short description 3',
-    altdesc: 'A third **longer** description with no link.',
-    img: 'surveillance.png',
-    link: ''
   }
 ];
 
