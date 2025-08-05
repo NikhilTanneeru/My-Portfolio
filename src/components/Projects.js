@@ -89,6 +89,16 @@ export default function Projects(props) {
 
   const projects = [
     {
+      title: 'Humanized Interview Agent',
+      imgName: 'Interview.png',
+      desc: 'Python, OPENAI, EfficientnetB0',
+      role: 'Team lead and Developer',
+      altdesc: `
+        ➢ An interview agent that behaves and evaluates just like human\n
+        ➢ Generates score based on answer relevancy, facial expressions and voice confidence  \n
+        ➢ Well prompted in conducting interview based on Job Description and Resume `
+    },
+    {
       title: 'Surveillance based Control System',
       imgName: 'surveillance.png',
       desc: 'JavaScript, ReactJS, NodeJS, Tailwind CSS, MongoDB, Axios, Node-WiFi',
@@ -136,16 +146,6 @@ export default function Projects(props) {
       githubLink : "https://github.com/NikhilTanneeru/Expression-Converter",
 
       altdesc: `This interactive website converts Infix Expression to Prefix and Postfix Expressions.`
-    },
-    {
-      title: 'Random Password Generator',
-      imgName: 'Password.png',
-      desc: 'Python, Libraries such as Random',
-      role: 'Logic and GUI Development',
-      githubLink: 'https://github.com/NikhilTanneeru/Random-Password-Generator',
-      altdesc: `➢ Generates a Random Password of Specified Length\n
-        ➢ Includes Digits, Alphabet and Special Characters \n
-        ➢ Repetition of characters is User Choice`
     },
     {
       title: 'Temperature Converter',

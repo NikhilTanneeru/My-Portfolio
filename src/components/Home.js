@@ -7,6 +7,7 @@ import Projects from './Projects';
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import Certifications from './Certifications';
 import Experience from './Experience';
+import Featured from './Featured';
 
 export default function Home() {
   return (
@@ -26,7 +27,7 @@ export default function Home() {
             </a>
             {/* Button to Download */}
             <a href="https://drive.google.com/file/d/1A4NGCvrM0rNSVRReCSLVovT9ZSiZuOs7/view?usp=sharing" target='_blank' rel="noopener noreferrer">
-              <button className='btn btn-primary mx-3 my-3'>Open CV</button>
+              <button className='btn btn-primary mx-3 my-3'>Download Resume</button>
             </a>
 
             {/* Button to Open Resume */}
@@ -42,6 +43,9 @@ export default function Home() {
           <div className="container sitem2">
             <img id="sideimg" src={require('../files/Webdeveloper.png')} alt='Profile' /> 
           </div>
+        </div>
+        <div className="certbox" id="featured">
+          <Featured />
         </div>
         <div className="about" id='about'>
           <About/>

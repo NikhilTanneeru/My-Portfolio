@@ -12,9 +12,9 @@ export default function Experience(props) {
                     <div className="skill-set my-3">
                         <center><strong>Programming Languages</strong></center>
                         <ul>
-                            <li>Python</li>
                             <li>Java</li>
-                            <li>R</li>
+                            <li>Python</li>
+                            <li>Java Script</li>
                         </ul>
                     </div>
                     <div className="skill-set my-3">
@@ -22,9 +22,8 @@ export default function Experience(props) {
                         <ul>
                             <li>HTML</li>
                             <li>CSS</li>
-                            <li>JS</li>
-                            <li>ReactJS</li>
-                            <li>NodeJS</li>
+                            <li>React.js</li>
+                            <li>Node.js</li>
                         </ul>
                     </div>
                     <div className="skill-set my-3">
